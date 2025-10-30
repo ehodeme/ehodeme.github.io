@@ -1,0 +1,117 @@
+:root {
+  --purple-50:  #f3e5f5;
+  --purple-100: #e1bee7;
+  --purple-500: #9c27b0;
+  --purple-700: #7b1fa2;
+  --amber-50:   #fff8e1;
+  --amber-100:  #ffecb3;
+  --amber-500:  #ffc107;
+  --amber-700:  #ffa000;
+  --text-dark:  #333;
+  --text-light: #fff;
+}
+
+body {
+    font-family: comic sans ms, sans-serif;
+    font-size: 16px;
+    background-color: var(--purple-50); /* Color de fondo púrpura claro */
+    color: var(--purple-700); /* Color de texto púrpura oscuro */
+    margin: 0px;
+    padding: 0;
+}
+h1{
+    font-family: lobster, sans-serif;
+    font-size: 42px;
+    text-align: center;
+}
+h2 a { 
+    font-family: lobster, sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+}
+h3 a { 
+    font-family: lobster, sans-serif;
+    font-size: 24px;
+}
+header {
+    background-color: var(--purple-700);
+    color: var(--text-light);
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+  width: 10%;
+  height: auto;
+}
+.diezysiete {
+  width: 17%;
+  height: auto;
+}
+.vente {
+  width: 20%;
+  height: auto;
+}
+.trenta {
+  width: 30%;
+  height: auto;
+}
+.imagenes-receta {
+    display: flex;                   /* activa Flexbox */
+    justify-content: center;         /* centra las imágenes horizontalmente */
+    gap: 20px;                       /* espacio entre las imágenes */
+    margin-top: 20px;                /* espacio superior */
+    margin-bottom: 20px;             /* espacio inferior */
+}
+.menu a {
+    background-color: #ffc107; /* Fondo amarillo */
+    padding: 3px 3px; /* Espaciado interno */
+    margin-top: 0px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-align: center; /* Centra el texto */
+}
+.menu {
+    display: flex; /* Usa flexbox para el menú */
+    justify-content: center; /* Centra horizontalmente */
+    flex-wrap: wrap;  /* <--- clave para que los botones se ajusten */
+    list-style: none; /* Quita los puntos de la lista */
+    gap: 30%; /* Espacio entre los elementos del menú */
+}
+.menu a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #7b1fa2; /* Color del texto */
+    border-radius: 25px; /* Bordes redondeados */
+}
+.menu a:hover {
+    background-color: #ffa000; /* Color al pasar el ratón */
+    color: #fff; /* Color del texto al pasar el ratón */
+}
+.botones {
+    display: flex;                   /* activa Flexbox */
+    justify-content: space-between;  /* un botón a la izquierda y otro a la derecha */
+    align-items: center;             /* centra verticalmente si hay altura */
+    margin-top: 30px;                /* espacio superior */
+    padding: 0 20px;                 /* espacio lateral para que no peguen al borde */
+}
+
+.botones a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #ffc107; /* color de fondo */
+    color: #7b1fa2; /* color del texto */;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.botones a:hover {
+    background-color: #ffa000; /* color al pasar el ratón */
+    color: #fff; /* color del texto al pasar el ratón */
+}
+
+footer {
+  text-align: center; /* Centra el texto del pie de página */
+  background-color: #7b1fa2; /* Fondo púrpura oscuro */
+  color: white; /* Texto blanco */
+  padding: 20px; /* Espaciado */
+}
+
